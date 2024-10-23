@@ -4,8 +4,8 @@ const fs = require('fs')
 const { color } = require('./lib/myfunc')
 
 //owner
-global.owner = '2347043759577'
-global.nomerowner = ["2347043759577"]
+global.owner = '6289525760286'
+global.nomerowner = ["6289525760286"]
 
 // Apikey 
 
@@ -27,7 +27,7 @@ global.apilinode = ''// apikey vps account linode
 global.apitokendo = ''
 
 //database 
-global.urldb = ''; // just leave it blank but if you want to use the mongo database, fill in the mongo url
+global.urldb = 'mongodb+srv://sam:sam@cluster0.u1smxsv.mongodb.net/?retryWrites=true&w=majority'; // just leave it blank but if you want to use the mongo database, fill in the mongo url
 
 global.limitawal = {
     premium: "Infinity",
@@ -62,10 +62,10 @@ global.unavailable = true;
 //to show your real presence  
 global.available = false;   
 // to show always online  
-global.autoreadmessages = false;   
+global.autoreadmessages = true;   
 ///To always read messages
-global.chatbot = false;
-global.autoreact = false;
+global.chatbot = true;
+global.autoreact = true;
 
 global.welcome = false;
 
@@ -75,7 +75,7 @@ global.autobio = false;
 
 global.antilink = false;
 
-global.antilinkkick = false;
+global.antilinkkick = true;
 
 global.antilinkwarn = false;
 
